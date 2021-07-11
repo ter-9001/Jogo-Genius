@@ -70,7 +70,7 @@ $('#iniciar').click( function () {
          
          passando++;    
          
-     }, 2000)
+     }, 500)
 
 
 
@@ -134,19 +134,21 @@ $('#iniciar').click( function () {
       
 
         var now = ArraysSame();
-        if( ( now) & (passando2 == 3))
-          mensagem("Parabéns, você acertou!!!");
-
-        if( !(now ) & (passando2 == 3))
-            mensagem("Você errou, reinicie o jogo!");
+       
+            
             
         if(passando2 == 3)
         {
-            passando2=0;    
+            passando2=0;
             
-        }   
-      
-      passando2++;     
+             if(now)
+               mensagem("Parabéns, você acertou!!!");
+             else
+               mensagem("Você errou, reinicie o jogo!");   
+
+            
+        }else     
+           passando2++;     
     
     }
 

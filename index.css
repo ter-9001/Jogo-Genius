@@ -2,7 +2,8 @@
     border-radius: 50%;
     width: 200px;
     height:200px;
-    margin: 25px;
+    margin:25px;
+    margin-top: -10px;
 }
 
 .row-center{
@@ -12,11 +13,18 @@
 }
 
 #mensagem{
-    background-color: darksalmon;
-    color: white;
+    background-color: rgb(247, 224, 216);
+    color: rgb(175, 55, 55);
     border: black 1px solid;
     margin: 2px;
     font-weight: bolder;
+    font-family: Courier, monospace;
+    height: 34px; 
+    padding: 0 2px 0 2px;
+    width: 400px;
+    font-size: large;
+    text-align: center;
+    
     
 }
 
