@@ -1,0 +1,28 @@
+.botao{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin: 25px;
+}
+
+.row-center{
+    display: flex; 
+    justify-content: center;
+    background-color: #121113;
+}
+
+#mensagem{
+    background-color: darksalmon;
+    color: white;
+    border: black 1px solid;
+    margin: 2px;
+    font-weight: bolder;
+    
+}
+
+#titulo{
+    color:#37343a;
+    font-family: FreeMono, monospace;
+    font-size: 75px;
+}
+
